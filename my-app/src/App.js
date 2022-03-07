@@ -19,7 +19,6 @@ function App() {
   return (
     <div>
       <div className="App">
-        {/* Hello 123456 */}
         {arr.map((e) => (
           <Items name={e.name} count={e.count} function={handleChange} />
         ))}
